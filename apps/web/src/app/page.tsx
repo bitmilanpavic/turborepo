@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Card } from "@repo/ui/card";
+import Button  from "@repo/ui/button";
 
 function Gradient({
   conic,
@@ -69,6 +70,7 @@ export default function Page(): JSX.Element {
             />
             probatest2
           </a>
+          <Button />
         </div>
       </div>
 
